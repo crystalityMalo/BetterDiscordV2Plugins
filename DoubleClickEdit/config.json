@@ -1,0 +1,13 @@
+{
+    "info": {
+        "id": "dbl-click-edit",
+        "name": "Double Click Edit",
+        "icon": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOm9zYj0iaHR0cDovL3d3dy5vcGVuc3dhdGNoYm9vay5vcmcvdXJpLzIwMDkvb3NiIiB2ZXJzaW9uPSIxLjEiIHhtbG5zOmNjPSJodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9ucyMiIHZpZXdCb3g9IjAgMCAzMCAzMCIgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIj4KPGRlZnM+CjxtYXNrIGlkPSJhIiBtYXNrVW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KPHJlY3QgaGVpZ2h0PSIzMCIgd2lkdGg9IjMwIiB5PSIwIiB4PSIwIiBmaWxsPSIjZmZmIi8+CjxyZWN0IHRyYW5zZm9ybT0icm90YXRlKDQ1KSIgaGVpZ2h0PSIxMiIgd2lkdGg9IjE1IiB5PSItNiIgeD0iMjUiLz4KPC9tYXNrPgo8Y2xpcFBhdGggaWQ9ImIiPgo8cmVjdCB0cmFuc2Zvcm09InJvdGF0ZSg0NSkiIGhlaWdodD0iOCIgd2lkdGg9IjE1IiBzdHJva2U9IiMwMDAiIHk9Ii00IiB4PSIyNSIvPgo8L2NsaXBQYXRoPgo8L2RlZnM+CjxnIGZpbGwtb3BhY2l0eT0iMCI+CjxjaXJjbGUgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgY2xpcC1wYXRoPSIiIGN4PSIxNSIgbWFzaz0idXJsKCNhKSIgc3Ryb2tlPSIjZmZmIiBjeT0iMTUiIHI9IjExLjUiIHN0cm9rZS13aWR0aD0iNyIvPgo8Y2lyY2xlIHN0cm9rZS13aWR0aD0iMTAiIGNsaXAtcGF0aD0idXJsKCNiKSIgbWFzaz0iIiBzdHJva2U9IiMzZTgyZTUiIGN5PSIxNSIgY3g9IjE1IiByPSIxMS41Ii8+CjwvZz4KPC9zdmc+Cg==",
+        "authors": [ "Qwerasd" ],
+        "version": 1.0,
+        "description": "Double click a message to edit."
+    },
+    "main": "index.js",
+    "type": "plugin",
+    "defaultConfig": []
+}
