@@ -18,7 +18,7 @@ module.exports = (Plugin, Api, Vendor, Dependencies) => {
         onStop() {
             Events.unsubscribeAll();
             this.observer.disconnect();
-            $('.message').off('dblclick.dblclickedit');
+            $('.message-1PNnaP').off('dblclick.dblclickedit');
 
             return true;
         }
@@ -41,11 +41,11 @@ module.exports = (Plugin, Api, Vendor, Dependencies) => {
             for(var mutation of mutationsList) {
                 if (mutation.type === 'childList') {
                     for (var node of mutation.addedNodes) {
-                        if ($(node).is('.message') || $(node).is('.message-group')) {
-                            $('.message').off('dblclick.dblclickedit').on('dblclick.dblclickedit', dblClickFunction);
+                        if ($(node).is('.message-1PNnaP') || $(node).is('.message-group')) {
+                            $('.message-1PNnaP').off('dblclick.dblclickedit').on('dblclick.dblclickedit', dblClickFunction);
                         } else if($(node).is('.messages-wrapper')) {
                             setTimeout(_ => { //jshint ignore: line
-                                $('.message').off('dblclick.dblclickedit').on('dblclick.dblclickedit', dblClickFunction);
+                                $('.message-1PNnaP').off('dblclick.dblclickedit').on('dblclick.dblclickedit', dblClickFunction);
                             }, 500);
                         }
                     }
@@ -84,7 +84,7 @@ module.exports = (Plugin, Api, Vendor, Dependencies) => {
                     clearInterval(chatPaneCheck);
                     this.observer = new MutationObserver(m => {this.handleMutation(m, this.messageDblClicked);});
                     this.observer.observe(document.querySelector('.chat'), {childList: true, subtree: true});
-                    $('.message').off('dblclick.dblclickedit').on('dblclick.dblclickedit', this.messageDblClicked);
+                    $('.message-1PNnaP').off('dblclick.dblclickedit').on('dblclick.dblclickedit', this.messageDblClicked);
                 }
             }, 100);
 
